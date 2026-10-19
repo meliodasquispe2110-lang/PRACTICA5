@@ -1,0 +1,125 @@
+/* ========== 1. GENERAL (font-family, font-size, background) ========== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #e8eef5;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #1f3a5f;
+  text-align: center;
+  margin: 10px 1.5%;
+}
+
+/* ========== 2. ENCABEZADO ========== */
+header {
+  background-color: #1f3a5f;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+  margin: 0;
+}
+
+/* ========== 3. CONTENEDOR ========== */
+.contenedor {
+  background-color: white;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* ========== 4. SOBRE MÍ ========== */
+.sobre-mi {
+  text-align: justify;
+  line-height: 1.5;
+  margin: 10px 1.5%;
+}
+
+/* ========== 5. TARJETAS DE MATERIAS ========== */
+.tarjetas {
+  text-align: center;
+}
+
+.tarjeta {
+  display: inline-block;
+  width: 28%;
+  box-sizing: border-box;
+  background-color: #f4c542;
+  text-align: center;
+  padding: 15px;
+  margin: 10px 1.5%;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta h3 {
+  margin: 0 0 8px;
+}
+
+.tarjeta p {
+  margin: 0;
+}
+
+.tarjeta:hover {
+  background-color: #e0555a;
+  color: white;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* ========== 6. LISTA DE PASATIEMPOS ========== */
+ul {
+  color: #1f3a5f;
+  margin: 10px 1.5% 20px;
+  padding-left: 60px;
+}
+
+/* ========== 7. TABLA DE HORARIO ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+th {
+  background-color: #1f3a5f;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+td {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #d5dde8;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5fa;
+}
+
+tr:hover {
+  background-color: #ffe9a8;
+}
+
+/* ========== 8. PIE DE PÁGINA ========== */
+footer {
+  background-color: #1f3a5f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer p {
+  margin: 0;
+}
