@@ -1,0 +1,325 @@
+/* CONFIGURACION GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.contenedor-principal {
+    margin: 50px;
+    padding: 50px;
+    background-color: #dedede;
+    min-height: 550px;
+}
+
+/* ENCABEZADO */
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.encabezado h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.encabezado h2 {
+    font-size: 18px;
+}
+
+.linea {
+    width: 50px;
+    height: 4px;
+    background-color: #1683df;
+    margin: 12px auto;
+}
+
+/* DATOS DEL ESTUDIANTE */
+
+.datos-estudiante {
+    background-color: white;
+    border-left: 5px solid #1683df;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.datos-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.datos-columna small {
+    font-size: 10px;
+    color: #777;
+}
+
+.datos-columna p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* LISTA DE NIVELES */
+
+.seccion-niveles {
+    margin-top: 35px;
+}
+
+.seccion-niveles h3 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.lista-niveles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.lista-niveles a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 18px;
+    min-width: 90px;
+    font-size: 11px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.lista-niveles a:hover {
+    background-color: #1683df;
+    color: white;
+}
+
+/* CONTENEDOR DE CADA NIVEL */
+
+.contenedor-nivel {
+    margin: 50px;
+    padding: 30px;
+    background-color: #dedede;
+    min-height: 550px;
+}
+
+.titulo-nivel {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.area-flex {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* CAJAS DE COLORES */
+
+.caja {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+/* NIVEL 1 */
+
+.nivel-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* NIVEL 2 */
+
+.nivel-2 {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* NIVEL 3 */
+
+.nivel-3 {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* NIVEL 4 */
+
+.nivel-4 {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* NIVEL 5 */
+
+.nivel-5 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* NIVEL 6 */
+
+.nivel-6 {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* NIVEL 7 */
+
+.nivel-7 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* NIVEL 8 */
+
+.nivel-8 {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* NIVEL 9 */
+
+.nivel-9 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* NIVEL 10 */
+
+.nivel-10 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NIVEL 11 */
+
+.nivel-11 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NIVEL 12 */
+
+.nivel-12 {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* NIVEL 13 */
+
+.nivel-13 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NIVEL 14 */
+
+.nivel-14 {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* NIVEL 15 */
+
+.nivel-15 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nivel-15 .rojo {
+    align-self: flex-start;
+}
+
+.nivel-15 .amarillo {
+    align-self: center;
+}
+
+.nivel-15 .verde {
+    align-self: flex-end;
+}
+
+/* BOTON VOLVER */
+
+.volver {
+    display: block;
+    width: 200px;
+    margin: 25px auto;
+    padding: 12px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.volver:hover {
+    background-color: #1683df;
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+    .contenedor-principal,
+    .contenedor-nivel {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .datos-estudiante {
+        flex-direction: column;
+    }
+
+    .datos-columna {
+        width: 100%;
+    }
+
+    .area-flex {
+        height: 250px;
+    }
+
+    .lista-niveles {
+        gap: 8px;
+    }
+}
